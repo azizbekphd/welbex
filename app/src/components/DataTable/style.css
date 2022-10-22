@@ -1,0 +1,58 @@
+.data-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-table_content {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+thead tr {
+    background-color: #ddd!important;
+}
+
+tbody tr {
+    height: 45px;
+}
+
+tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+tr > * {
+    padding: 10px 15px;
+}
+
+.pagination-controls {
+    background-color: var(--background-color);
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.pagination-controls button {
+    width: 55px;
+}
+
+.pagination-controls_main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-controls_main input {
+    width: 60px;
+}

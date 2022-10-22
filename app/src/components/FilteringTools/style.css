@@ -1,0 +1,17 @@
+.filtering-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    box-shadow: 0 0 3px 0 var(--shadow-color);
+}
+
+.filtering-tools > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
