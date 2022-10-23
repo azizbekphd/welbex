@@ -1,12 +1,6 @@
 const http = require('http');
 const Pool = require('pg').Pool
-const pool = new Pool({
-    user: 'me',
-    host: 'localhost',
-    database: 'api',
-    password: 'HardPassword',
-    port: 5432,
-})
+const pool = new Pool(require("./database"))
 
 const hostname = '127.0.0.1';
 const port = 8000;
